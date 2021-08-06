@@ -1,0 +1,181 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none;
+}
+
+
+.logos i:hover,
+#download_bottom:hover
+{
+    color: black;
+    background-color: white;
+
+}
+#download_bottom:hover span{
+    color:black;
+}
+/* header */
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #2C3E50;
+}
+
+nav ul li{
+    font-size: 14px;
+}
+
+.jumbotron{
+    background-color: #1ABC9C;
+}
+
+img.avatar{
+    width: 13%;
+}
+
+/* jumbo */
+.star_line{
+    width: 50%;
+}
+
+.line{
+    height: 3px;
+    width: 22%;
+}
+
+.line_white{
+    background-color: white;
+}
+
+.line_dark{
+    background-color: black;
+}
+
+.fa-star{
+    font-size: 1.2rem;
+}
+
+.jumbo-text span{
+    font-size: 1.3rem;
+}
+
+/* main portfolio */
+
+.layover_wrapper{
+    position: relative;
+}
+
+#portfolio img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#portfolio img a{
+width: 100%;
+height: 100%;
+}
+
+#portfolio .layover i{
+    font-size: 200px;
+    color: #1ABC9C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#portfolio .layover{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 5px;
+    visibility: hidden;   
+
+}
+
+
+#portfolio .row > *:hover .layover
+{
+    visibility: visible;
+}
+
+/* main about */
+.about_bck{
+    background-color: #1ABC9C;
+}
+
+#download_bottom{
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+#download_bottom span{
+color: white;
+
+}
+
+/* main contact */
+form input,
+form textarea {
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    color: #2C3E50;
+    font-size: 20px;
+}
+
+form textarea {
+    height: 150px;
+    min-height: 72px;
+}
+
+form input:focus-visible,
+form textarea:focus-visible {
+    outline: none;
+}
+
+.btn_send {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+/* footer */
+
+.footer_bck{
+    background-color: #3A546D;
+}
+
+footer i{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.green_text,
+.green_text:hover{
+    color: #1ABC9C;
+}
+
+.green_text:hover{
+    cursor: pointer;
+}
+
+#copyright{
+    background-color: #2C3E50;
+}
